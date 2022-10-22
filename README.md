@@ -11,7 +11,7 @@ CMD script for disable/remove windows update
 sc config wuauserv start=disabled
 ```
 ---
-### Delete Update
+### Delete Update (not recommended)
 ```bash
 sc delete wuauserv
 ```
